@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(228, 188, 188); */
+    /* background-color: rgb(141 180 160); */
+    background-color: rgb(195 208 224);
+}
+
+.imgholder {
+    /* margin: 0px auto; */
+    /* border: 2px solid red; */
+}
+
+#imgdog {
+    height: 600px;
+    margin: auto;
+    display: block;
+    width: 100%;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    /* padding: 114px 14px; */
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+li a:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.navbar {
+    background-color: rgb(253, 253, 253);
+    /* display: inline-block;
+    float: left; */
+    width: 70%;
+    height: 60px;
+    border-radius: 115px;
+    margin: 1px auto;
+}
+
+.litag {
+    float: right;
+    list-style: none;
+    margin: 20px 13px;
+}
+
+#logo {
+    display: block;
+    width: 40px;
+    height: 45px;
+    margin: 6px 2px;
+    border-radius: 50%;
+
+}
+
+.limg {
+    float: left;
+    list-style: none;
+}
+
+.search {
+    float: left;
+    list-style: none;
+    /* margin:20px 14px; */
+}
+
+#search {
+    padding:6px;
+    border: none;
+    font-size: 17px;
+    padding: 6px;
+    margin: 15px 12px;
+    background-color: rgb(210, 215, 213);
+    border-radius: 23px;
+}
+
+h5 {
+    display: inline-block;
+    margin: 1px auto;
+    border: 2px solid red;
+}
+
+.centered {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    color:aliceblue;
+    font-family:cursive;
+    font-weight: 700;
+    font-size: 30px;
+
+    /* transform: translate(-50%, -50%); */
+}
+.gallery{
+    /* background-color:rgb(179, 175, 175); */
+    background-color: rgb(235 238 245);
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+     /* max-width: 1320px;  */
+    /* border:2px solid red; */
+}
+
+ .imgs{
+    display:inline-block;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:50px;
+    margin-right:40px;
+    height:400px;
+    width:400px;
+    border-radius: 4px;
+} 
+.imgs2{
+    margin-top:0px;
+}
+.register{
+    width:45%;
+    height:50%;
+    background-color: blanchedalmond;
+    padding-top:34px;
+    /* padding:233px; */
+    margin:auto;
+    text-align: center;
+}
+.elements{
+  font-size: large;
+  border-radius: 30px;
+  border:none;
+  font-family: cursive;
+}
+.btn{
+    padding:10px;
+    border-radius: 12px;
+    border: none;
+    font-family: cursive;
+}
+.btn:hover{
+    cursor: pointer;
+    border:3px solid burlywood;
+}
+h3{
+   font-size: large; 
+   font-family: cursive;
+}
+.last{
+    text-align: center;
+    margin:50px auto;
+}
